@@ -27,7 +27,7 @@ def count_neg_words(negative_words, text):
 
 	paragraphs = text.split('\n')
 
-	for paragraph in paragraphs: 	
+	for paragraph in paragraphs:
 
 		for phrase in neg_phrases:		#It's easier to look for phrases in a big block text
 			count += paragraph.count(phrase)
